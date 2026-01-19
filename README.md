@@ -24,7 +24,7 @@ Centralizar, de forma simples e acessível, os links de inscrição das oficinas
 
 * HTML
 * SCSS
-* JavaScript *(se aplicável)*
+* TypeScript
 
 ---
 
