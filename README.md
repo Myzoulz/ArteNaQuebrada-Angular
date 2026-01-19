@@ -1,59 +1,48 @@
-# ArtenaquebradaAngular
+# Página de Redirecionamento – Arte na Quebrada
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+Este projeto consiste em uma **página simples de redirecionamento de links** desenvolvida para o projeto social **Arte na Quebrada**.
 
-## Development server
+A página tem como objetivo facilitar o acesso dos alunos às **oficinas disponíveis**, permitindo que escolham a oficina desejada e sejam **redirecionados diretamente para o formulário de matrícula correspondente**.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🎯 Objetivo
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Centralizar, de forma simples e acessível, os links de inscrição das oficinas do projeto **Arte na Quebrada**, melhorando a experiência dos alunos no momento da matrícula.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧩 Funcionalidades
 
-```bash
-ng generate component component-name
-```
+* Exibição de uma lista de oficinas disponíveis
+* Redirecionamento automático para o formulário de inscrição da oficina escolhida
+* Interface simples, leve e fácil de usar
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🛠️ Tecnologias Utilizadas
 
-## Building
+* HTML
+* SCSS
+* JavaScript *(se aplicável)*
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🚀 Como utilizar
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. Acesse a página de redirecionamento
+2. Escolha a oficina desejada
+3. Clique no link correspondente
+4. Você será redirecionado para o formulário de matrícula
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📌 Contexto Social
 
-```bash
-ng test
-```
+O **Arte na Quebrada** é um projeto social que promove acesso à arte e à cultura por meio de oficinas educativas, contribuindo para o desenvolvimento pessoal e criativo dos participantes.
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📄 Licença
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto é de uso livre para fins educacionais e sociais.
