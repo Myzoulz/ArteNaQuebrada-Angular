@@ -1,3 +1,5 @@
-<a [href]="link" target="_blank" class="button">
+<a [href]="link" target="_blank" class="button"
+   [style.background-image]="backgroundImage ? 'url(' + backgroundImage + ')' : 'none'"
+   [style.background-position]="backgroundPosition">
   {{ label }}
 </a>

@@ -10,4 +10,6 @@ import { CommonModule } from '@angular/common';
 export class ButtonComponent {
   @Input() label: string = '';
   @Input() link: string = '';
+  @Input() backgroundImage: string = '';
+  @Input() backgroundPosition: string = 'top right';
 }
