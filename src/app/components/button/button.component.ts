@@ -12,4 +12,5 @@ export class ButtonComponent {
   @Input() link: string = '';
   @Input() backgroundImage: string = '';
   @Input() backgroundPosition: string = 'top right';
+  @Input() disabled: boolean = false;
 }

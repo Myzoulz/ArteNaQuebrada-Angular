@@ -10,20 +10,6 @@
   <h1>Clique na opção que procura</h1>
 
   <app-button
-    label="Inscrição Oficina Dança de Rua"
-    link="https://docs.google.com/forms/d/e/1FAIpQLScNGVDyUvKRJUIP_kRN71KoAxBxu0xECg_u2xOd-sHuJr35xA/viewform?usp=dialog"
-    backgroundImage="tintaazul.png"
-    backgroundPosition="right -19px top 3px">
-  </app-button>
-
-  <app-button
-    label="Inscrição Oficina Grafite"
-    link="https://docs.google.com/forms/d/e/1FAIpQLSfPunR1oLsU205oMsOvC6cIP3ID6yrPh79dkkQtla7hizxJjg/viewform?usp=dialog"
-    backgroundImage="tintalaranja.png"
-    backgroundPosition="right -10px top -1px">
-  </app-button>
-
-  <app-button
     label="Inscrição Oficina Percussão"
     link="https://docs.google.com/forms/d/e/1FAIpQLSfNPhjYNjbL5Aebj0xjDZEww-4CblMJWfK_vo_t6COuXaC6uQ/viewform?usp=dialog"
     backgroundImage="tintarosa.png"
@@ -35,6 +21,22 @@
     link="https://docs.google.com/forms/d/e/1FAIpQLSdzEx1qzdKxBJTS6o7priZzwI_fE6hTscdIfKEpPy7_7Q433w/viewform?usp=dialog"
     backgroundImage="tintavermelha.png"
     backgroundPosition="right -2px top 22px">
+  </app-button>
+
+  <app-button
+    label="Inscrição Oficina Dança de Rua (Incrições Encerradas)"
+    link="https://docs.google.com/forms/d/e/1FAIpQLScNGVDyUvKRJUIP_kRN71KoAxBxu0xECg_u2xOd-sHuJr35xA/viewform?usp=dialog"
+    backgroundImage="tintaazul.png"
+    backgroundPosition="right -19px top 3px"
+    [disabled]="true">
+  </app-button>
+
+  <app-button
+    label="Inscrição Oficina Grafite (Incrições Encerradas)"
+    link="https://docs.google.com/forms/d/e/1FAIpQLSfPunR1oLsU205oMsOvC6cIP3ID6yrPh79dkkQtla7hizxJjg/viewform?usp=dialog"
+    backgroundImage="tintalaranja.png"
+    backgroundPosition="right -10px top -1px"
+    [disabled]="true">
   </app-button>
 
   <app-button
